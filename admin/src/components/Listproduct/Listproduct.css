@@ -1,0 +1,12 @@
+.img_product{
+    padding: 0px;
+    margin: 0px;
+    width: 60px;
+}
+.list_product{
+    width: 100%;
+    margin: 0 auto;
+}
+.delete_btn{
+    cursor: pointer;
+}
