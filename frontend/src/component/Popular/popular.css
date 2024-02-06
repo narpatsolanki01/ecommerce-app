@@ -1,0 +1,13 @@
+.popular .heading{
+    position: relative;
+}
+.heading span{
+    width:100px ;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 1px solid #000;
+    background-color: #000;
+    border-bottom: #000;
+}

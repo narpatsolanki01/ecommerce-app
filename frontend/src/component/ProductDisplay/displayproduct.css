@@ -1,0 +1,36 @@
+.left_side-img{
+    display: flex;
+    flex-direction: column;
+}
+.left_side-img img{
+    width: 100px;
+    height: 110px;
+    object-fit: cover;
+    margin:0px  10px 12px 0px;
+}
+.main_image{
+    width: 330px;
+    height: 450px;
+    margin:0px;
+}
+.old_price{
+    text-decoration: line-through;
+    color: #8F8F8F;
+    font-size: 20px;
+}
+.size_item button{
+    margin-right: 20px;
+}
+@media screen and (max-width: 400px){
+    
+    .main_image{
+        width: 280px;
+        height: 350px;
+        margin:0px;
+    }
+    .size_item button{
+        margin-right: 10px;
+    }
+   
+    
+}

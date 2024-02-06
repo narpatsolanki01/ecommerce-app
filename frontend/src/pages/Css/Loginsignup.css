@@ -1,0 +1,29 @@
+.login{
+    background: #FAE3FF;
+    height: 100vh;
+}
+.form_login{
+    width: 30%;
+}
+.changepage{
+    cursor: pointer;
+}
+@media screen and (max-width: 1000px) {
+    .form_login{
+        width: 50%;
+    }
+    
+}
+@media screen and (max-width: 800px) {
+    .form_login{
+        width: 70%;
+    }
+    
+}
+@media screen and (max-width: 400px) {
+    .form_login{
+        width: 100%;
+        padding: 0px;
+    }
+    
+}

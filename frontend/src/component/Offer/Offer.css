@@ -1,0 +1,22 @@
+.offer_1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg,#FBE6FF, #fff);
+    padding: 20px;     
+}
+.exclusive{
+    width: 60%;
+}
+@media screen and (max-width: 1000px) {
+    .exclusive{
+        width: 70%;
+    }
+    
+}
+@media screen and (max-width: 800px) {
+    .exclusive{
+        width: 70%;
+    }
+    
+}

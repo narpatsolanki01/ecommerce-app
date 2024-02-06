@@ -1,0 +1,17 @@
+.image_card {
+    width: 100%;
+    height: 100%;
+   
+   
+    cursor: pointer;
+    overflow: hidden;
+    
+}
+.image_card img{
+   
+    transition: transform 0.5s ease;
+   
+    &:hover{
+        transform: scale(1.1);
+    }
+}
